@@ -1,0 +1,79 @@
+/*模型分类 树形样式*/
+#model-tree span {
+    color: #428BCA;
+}
+
+#model-tree li.disabled a {
+    color: #BBB;
+    cursor: default;
+}
+
+#model-tree li.disabled a:hover {
+    text-decoration: none;
+}
+
+.proj-list {
+    margin-top: 10px;
+    background-color: #f4f9fc;
+}
+
+.proj-list ul {
+    margin-right: 60px;
+    height: 34px;
+    overflow: hidden;
+}
+
+.proj-list:hover ul {
+    height: auto;
+}
+
+.proj-list li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#add-new-btn {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

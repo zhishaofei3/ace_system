@@ -1,0 +1,102 @@
+/*主图*/
+#spec-list ul {
+    margin-left: 0;
+}
+
+#spec-list li {
+    list-style-type:none;
+    float: left;
+    width: 25%;
+    padding: 2px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+#spec-list li.img-hover {
+    border: 2px solid #428bca;
+    padding: 0;
+}
+
+#spec-list li img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.preview .spec {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    padding: 4px;
+    display: inline-block;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    margin-bottom: 5px;
+}
+.preview .spec img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form .btn-xs {
+    margin-left: 4px;
+    border-width: 4px;
+}
+
+form .v-help {
+    line-height: 2.5;
+    margin-right: 4px;
+}
+
+form .jingdu {
+    margin-left: 10px;
+}
+
+form .model-file .control-label {
+    padding-top: 4px;
+}
+
+.form-horizontal .radio {
+    padding-top: 0;
+}
+
+.btn-wrap .col-sm-10:first-child {
+    padding-left: 0;
+}
+
+.form-group .form-group {
+    margin-bottom: 5px;
+}
+
+.size input[type=number] {
+    margin-right: 10px;
+}
+
+.model .form-group .form-group .control-label {
+    margin-right: 5px;
+}
+
+.model .form-group .form-group input[type="text"] {
+    margin-right: 10px;
+}
+
+
+/*模型分类 树形样式*/
+#model-tree span {
+    color: #428BCA;
+}
+
+#model-tree li.disabled a {
+    color: #BBB;
+    cursor: default;
+}
+
+#model-tree li.disabled a:hover {
+    text-decoration: none;
+}
