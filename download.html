@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>目标特性数据管理系统平台</title>
+    <meta name="keywords" content="目标特性数据管理系统平台" />
+    <meta name="description" content="目标特性数据管理系统平台" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- basic styles -->
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+    <![endif]-->
+
+    <!-- page specific plugin styles -->
+    <link rel="stylesheet" href="assets/css/jquery-ui-1.10.3.full.min.css" />
+
+    <!-- fonts -->
+
+    <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />-->
+    <!--<link rel="stylesheet" href="css/css-fonts" />-->
+
+    <!-- ace styles -->
+
+    <link rel="stylesheet" href="assets/css/ace.min.css" />
+    <link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="assets/css/ace-skins.min.css" />
+
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/download.css"/>
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+    <![endif]-->
+
+    <!-- inline styles related to this page -->
+
+    <!-- ace settings handler -->
+
+    <script src="assets/js/ace-extra.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-default" id="navbar">
+    <script type="text/javascript">
+        try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+    </script>
+
+    <div class="navbar-container" id="navbar-container">
+        <div class="navbar-header pull-left">
+            <a href="#" class="navbar-brand">
+                <small>
+                    <i class="icon-leaf"></i>
+                    目标特性数据管理系统平台
+                </small>
+            </a><!-- /.brand -->
+        </div><!-- /.navbar-header -->
+
+        <div class="navbar-header pull-right" role="navigation">
+            <ul class="nav ace-nav">
+                <li class="light-blue">
+                    <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                        <img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>Welcome,</small>
+									史长利
+								</span>
+
+                        <i class="icon-caret-down"></i>
+                    </a>
+
+                    <ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+                        <li>
+                            <a href="#">
+                                <i class="icon-cog"></i>
+                                修改密码
+                            </a>
+                        </li>
+
+                        <li class="divider"></li>
+
+                        <li>
+                            <a href="#">
+                                <i class="icon-off"></i>
+                                退出登录
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul><!-- /.ace-nav -->
+        </div><!-- /.navbar-header -->
+    </div><!-- /.container -->
+</div>
+<div class="main-container" id="main-container">
+    <script type="text/javascript">
+        try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+    </script>
+
+    <div class="main-container-inner">
+        <ul class="nav nav-pills" id="main-nav">
+            <li>
+                <a href="#">几何模型</a>
+            </li>
+
+            <li>
+                <a href="#">仿真模型</a>
+            </li>
+
+            <li>
+                <a href="#">项目管理</a>
+            </li>
+
+            <li>
+                <a href="#">交货管理</a>
+            </li>
+
+            <li>
+                <a href="#">统计功能</a>
+            </li>
+
+            <li>
+                <a href="#">人员管理</a>
+            </li>
+
+            <li class="active">
+                <a href="#">资料库</a>
+            </li>
+        </ul>
+        <a class="menu-toggler" id="menu-toggler" href="#">
+            <span class="menu-text"></span>
+        </a>
+
+        <div class="page-content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>名称</th>
+                            <th>备注</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>autodesk_maya_2014_win32</td>
+                            <td>内含破解包</td>
+                            <td><button class="btn btn-xs btn-success">下载</button></td>
+                        </tr>
+                        <tr>
+                            <td>autodesk_maya_2014_win64</td>
+                            <td>内含破解包</td>
+                            <td><button class="btn btn-xs btn-success">下载</button></td>
+                        </tr>
+                        <tr>
+                            <td>autodesk_max_win32</td>
+                            <td>破解版</td>
+                            <td><button class="btn btn-xs btn-success">下载</button></td>
+                        </tr>
+                        <tr>
+                            <td>autodesk_max_win64</td>
+                            <td>破解版</td>
+                            <td><button class="btn btn-xs btn-success">下载</button></td>
+                        </tr>
+                        <tr>
+                            <td>Rhinoceros 5.0</td>
+                            <td>英文版</td>
+                            <td><button class="btn btn-xs btn-success">下载</button></td>
+                        </tr>
+                        <tr>
+                            <td>MultiGen.Creator.3.0 视景仿真</td>
+                            <td>内含汉化包</td>
+                            <td><button class="btn btn-xs btn-success">下载</button></td>
+                        </tr>
+                        <tr>
+                            <td>UG_NX 8.0</td>
+                            <td>内含keygen</td>
+                            <td><button class="btn btn-xs btn-success">下载</button></td>
+                        </tr>
+                        <tr>
+                            <td>Gatia V20</td>
+                            <td>内含keygen</td>
+                            <td><button class="btn btn-xs btn-success">下载</button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-6">
+                    <h3 class="header smaller lighter red">上传资料</h3>
+                    <div class="form-group model-file">
+                        <label class="col-sm-2 control-label no-padding-right">文件</label>
+                        <div class="col-sm-10">
+                            <div class="col-sm-6 no-padding">
+                                <input type="file" id="new-file-upload" class="col-sm-2"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group model-file">
+                        <label class="col-sm-2 control-label no-padding-right">备注</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="col-sm-6" placeholder="请输入备注"/>
+                        </div>
+                    </div>
+                    <div class="col-sm-offset-2 col-sm-10 btns">
+                        <a id="add-model" class="btn btn-info btn-sm" href="javascript:;" target="_self"><i class="icon-plus-sign bigger-110"></i>上传</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.main-container-inner -->
+</div><!-- /.main-container -->
+
+<script src='assets/js/jquery-1.10.2.min.js'></script>
+<script type="text/javascript">
+    if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+</script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/typeahead-bs2.min.js"></script>
+
+<!-- page specific plugin scripts -->
+
+<script src="assets/js/jquery-ui-1.10.3.full.min.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/jquery.slimscroll.min.js"></script>
+
+<script src="assets/js/jquery.nestable.min.js"></script>
+
+<!-- ace scripts -->
+
+<script src="assets/js/ace-elements.min.js"></script>
+<script src="assets/js/ace.min.js"></script>
+
+<!-- inline scripts related to this page -->
+
+<script type="text/javascript">
+    $(function($) {
+
+        $('#new-file-upload').ace_file_input({
+            no_file:'请上传软件压缩包..',
+            btn_choose:'选择',
+            btn_change:'修改',
+            droppable:false,
+            onchange:null,
+            thumbnail:false
+        });
+
+
+    });
+</script>
+</body>
+</html>

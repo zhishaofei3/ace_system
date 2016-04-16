@@ -1,0 +1,7 @@
+.table input {
+    width: 100%;
+}
+
+.table select.form-control {
+    height: 28px;
+}

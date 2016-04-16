@@ -25,6 +25,7 @@
 
 .proj-list:hover ul {
     height: auto;
+    margin-bottom: -10px;
 }
 
 .proj-list li {
@@ -40,19 +41,41 @@
     top: 10px;
 }
 
+.table th {
+    text-align: center;
+}
 
+.progress-slider {
+    float: left;
+    margin-top: 11px;
+}
 
+.progress-input {
+    width: 15%;
+    max-width: 100%;
+    margin-left: 15px;
+}
 
+table input {
+    width: 100%;
+}
 
+table select[multiple] {
+    width: 300px;
+}
 
+.chosen-container-multi .chosen-choices {
+    border-color: #d5d5d5;
+    background-image: none;
+}
 
+table select.form-control {
+    height: 28px;
+}
 
-
-
-
-
-
-
+.ui-dialog .ui-dialog-titlebar-close {
+    outline: 0;
+}
 
 
 

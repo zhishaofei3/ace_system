@@ -1,0 +1,27 @@
+/*模型分类 树形样式*/
+#model-tree span {
+    color: #428BCA;
+}
+
+#model-tree li.disabled a {
+    color: #BBB;
+    cursor: default;
+}
+
+#model-tree li.disabled a:hover {
+    text-decoration: none;
+}
+
+.filetree input[type=checkbox] {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+

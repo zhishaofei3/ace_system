@@ -1,0 +1,66 @@
+/*模型分类 树形样式*/
+#model-tree span {
+    color: #428BCA;
+}
+
+#model-tree li.disabled a {
+    color: #BBB;
+    cursor: default;
+}
+
+#model-tree li.disabled a:hover {
+    text-decoration: none;
+}
+
+.page-content .model-name {
+    float: left;
+    width: 20%;
+    font-size: 12px;
+}
+
+.page-content .progress {
+    float: left;
+    width: 80%;
+}
+
+.jiaohuoguanli .row  {
+    margin: 4px 0;
+}
+
+.jiaohuoguanli input[type=text] {
+    width: 100%;
+}
+
+.xinbanbentongji .hasDatepicker {
+    width: 45%;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: auto;
+}
+
+.filetree {
+    margin-top: 20px;
+}
+
+.filetree span {
+    color: #428BCA;
+}
+
+.filetree li.disabled a {
+    color: #BBB;
+    cursor: default;
+}
+
+.filetree li.disabled a:hover {
+    text-decoration: none;
+}
+
+.filetree input[type=checkbox] {
+    margin-left: 5px;
+}
+
+.filetree .download-btn {
+    margin-left: 5px;
+}
+

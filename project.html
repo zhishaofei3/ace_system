@@ -17,6 +17,8 @@
     <![endif]-->
 
     <!-- page specific plugin styles -->
+    <link rel="stylesheet" href="assets/css/jquery-ui-1.10.3.full.min.css" />
+    <link rel="stylesheet" href="assets/css/chosen.css" />
 
     <!-- fonts -->
 
@@ -109,7 +111,7 @@
 
     <div class="main-container-inner">
         <ul class="nav nav-pills" id="main-nav">
-            <li class="active">
+            <li>
                 <a href="#">几何模型</a>
             </li>
 
@@ -117,7 +119,7 @@
                 <a href="#">仿真模型</a>
             </li>
 
-            <li>
+            <li class="active">
                 <a href="#">项目管理</a>
             </li>
 
@@ -126,7 +128,7 @@
             </li>
 
             <li>
-                <a href="#">统计管理</a>
+                <a href="#">统计功能</a>
             </li>
 
             <li>
@@ -202,13 +204,13 @@
 
         <div class="main-content">
             <div class="page-content">
-                <div class="row">
+                <div class="row" style="height: 54px;">
                     <div class="col-xs-12 col-sm-12">
                         <div class="proj-list">
                             <ul class="clearfix">
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">066</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">014</a></li>
-                                <li><a class="btn btn-info btn-sm" href="#" target="_self">三院三部</a></li>
+                                <li><a class="btn btn-info btn-sm btn-danger" href="#" target="_self">三院三部</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">066</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">014</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">三院三部</a></li>
@@ -218,18 +220,99 @@
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">066</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">014</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">三院三部</a></li>
+                                <li><a class="btn btn-info btn-sm" href="#" target="_self">066</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">066</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">014</a></li>
                                 <li><a class="btn btn-info btn-sm" href="#" target="_self">三院三部</a></li>
                             </ul>
                         </div>
                         <a id="add-new-btn" class="btn btn-success btn-sm" href="#" target="_self">新建</a>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th style="width: 20%;">名称</th>
+                            <th style="width: 25%;">注释</th>
+                            <th style="width: 10%;">负责人</th>
+                            <th style="width: 10%;">参与人</th>
+                            <th style="width: 25%;">完成度</th>
+                            <th style="width: 15%;">状态</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><input type="text" value="F-22A" disabled="disabled"></td>
+                            <td><input type="text" value="F-22高模H版本obj"></td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="S">史长利</option>
+                                    <option value="S2">祝国伟</option>
+                                    <option value="S3">李长坤</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select multiple="multiple" class="canyu-select chosen-select" data-placeholder=" ">
+                                    <option value="">&nbsp;</option>
+                                    <option value="A">史长利</option>
+                                    <option value="B">祝国伟</option>
+                                    <option value="C">李长坤</option>
+                                </select>
+                            </td>
+                            <td>
+                                <div class="progress-slider"></div>
+                                <input type="text" class="progress-input" value="0">
+                            </td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="Y">工作中</option>
+                                    <option value="C">已完成</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="F-22A" disabled="disabled"></td>
+                            <td><input type="text" value="F-22高模H版本obj"></td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="S">史长利</option>
+                                    <option value="S2">祝国伟</option>
+                                    <option value="S3">李长坤</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select multiple="multiple" class="canyu-select chosen-select" data-placeholder=" ">
+                                    <option value="">&nbsp;</option>
+                                    <option value="A">史长利</option>
+                                    <option value="B">祝国伟</option>
+                                    <option value="C">李长坤</option>
+                                </select>
+                            </td>
+                            <td>
+                                <div class="progress-slider"></div>
+                                <input type="text" class="progress-input" value="0">
+                            </td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="Y">工作中</option>
+                                    <option value="C">已完成</option>
+                                </select>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="col-sm-12 center">
+                        <button class="btn btn-primary" type="button">
+                            <i class="icon-ok"></i>
+                            提交
+                        </button>
                     </div>
                 </div>
             </div><!-- /.page-content -->
         </div><!-- /.main-content -->
     </div><!-- /.main-container-inner -->
-
     <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
         <i class="icon-double-angle-up icon-only bigger-110"></i>
     </a>
@@ -244,8 +327,9 @@
 
 <!-- page specific plugin scripts -->
 
-<script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="assets/js/jquery-ui-1.10.3.full.min.js"></script>
 <script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/chosen.jquery.min.js"></script>
 <script src="assets/js/jquery.slimscroll.min.js"></script>
 
 <script src="treeview/lib/jquery.cookie.js" type="text/javascript"></script>
@@ -267,6 +351,67 @@
             collapsed: false
         });
 
+        $(".progress-slider").css('width','70%').slider({
+            value:1,
+            range: "min",
+            min: 0,
+            max: 100,
+            step: 1,
+            slide: function( event, ui ) {
+                $(this).siblings(".progress-input").val(ui.value + "%");
+            }
+        });
+
+        $(".progress-input").change(function() {
+            var n = Number($(this).val());
+            $(this).siblings(".progress-slider").slider("value", n);
+        });
+
+        $(".chosen-select").chosen();
+
+        <!--对话框-->
+
+        //override dialog's title function to allow for HTML titles
+        $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+            _title: function(title) {
+                var $title = this.options.title || '&nbsp;'
+                if( ("title_html" in this.options) && this.options.title_html == true )
+                    title.html($title);
+                else title.text($title);
+            }
+        }));
+
+        $("#add-new-btn").on('click', function(e) {
+            e.preventDefault();
+
+            var dialog = $("#dialog-message").removeClass('hide').dialog({
+                modal: true,
+                title: "<div class='widget-header widget-header-small'><h4 class='smaller'><i class='icon-plus'></i>新建单位</h4></div>",
+                title_html: true,
+                buttons: [
+                    {
+                        text: "Cancel",
+                        "class" : "btn btn-xs",
+                        click: function() {
+                            $( this ).dialog( "close" );
+                        }
+                    },
+                    {
+                        text: "OK",
+                        "class" : "btn btn-primary btn-xs",
+                        click: function() {
+                            $( this ).dialog( "close" );
+                        }
+                    }
+                ]
+            });
+
+            /**
+             dialog.data( "uiDialog" )._title = function(title) {
+						title.html( this.options.title );
+					};
+             **/
+        });
     });
 </script>
 </body>

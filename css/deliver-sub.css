@@ -1,0 +1,38 @@
+/*模型分类 树形样式*/
+#model-tree span {
+    color: #428BCA;
+}
+
+#model-tree li.disabled a {
+    color: #BBB;
+    cursor: default;
+}
+
+#model-tree li.disabled a:hover {
+    text-decoration: none;
+}
+
+.page-content h3 {
+    margin-top: 0;
+}
+
+table th {
+    text-align: center;
+}
+
+#add-new-btn {
+    position: absolute;
+    right: 12px;
+    top: -2px;
+}
+
+.page-content .row {
+    position: relative;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    outline: 0;
+}
+
+
+
