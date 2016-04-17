@@ -1,0 +1,7 @@
+.main-container {
+    margin-top: 120px;
+}
+
+.login-layout .widget-box .widget-body .toolbar>div>a {
+    text-shadow: none;
+}
