@@ -26,6 +26,7 @@
 .proj-list:hover ul {
     height: auto;
     margin-bottom: -10px;
+    overflow: visible;
 }
 
 .proj-list li {
@@ -33,8 +34,24 @@
     list-style: none;
     margin-right: 20px;
     margin-bottom: 10px;
+    position: relative;
 }
 
+.proj-list li .btns {
+    position: absolute;
+    left: 0;
+    display: block;
+    white-space: nowrap;
+    display: none;
+}
+
+.proj-list li:hover .btns {
+    display: block;
+}
+
+.proj-list li:hover .btns a {
+    text-decoration: none;
+}
 #add-new-btn {
     position: absolute;
     right: 12px;
